@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>守口うさぎとは？</title>
+  <style>
+    body {
+      background: #f3f4f6 url('background.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Rounded Mplus 1c', sans-serif;
+      color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #ffb6b9;
+      margin-bottom: 20px;
+    }
+    img {
+      width: 250px;
+      margin-bottom: 20px;
+    }
+    .intro-text {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+    .profile-text {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      line-height: 1.6;
+      text-align: left;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: pink;
+      border-radius: 25px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>守口うさぎとは？</h1>
+  <img src="https://media.giphy.com/media/13borq7Zo2kulO/giphy.gif" alt="守口うさぎ">
+
+  <div class="intro-text">
+    守口市の淀川河川敷で生まれた、突然変異のうさぎ。<br>
+    守口市のゆるキャラオーディションに毎回エントリーするが、<br>
+    逮捕、補導歴、偏った政治への思想も、すべて履歴書に記載してしまう正直な性格が災いして、<br>
+    書類選考で落選し続けている。
+  </div>
+
+  <div class="profile-text">
+    <p><strong>なまえ：</strong> 守口 うさぎ</p>
+    <p><strong>ねんれい：</strong> 人間でいうと32歳</p>
+    <p><strong>くちぐせ：</strong> 「その服ええやん！コムサ？」</p>
+    <p><strong>すきなもの：</strong> 守口大根、ラークメンソール7ミリ</p>
+    <p><strong>しかく：</strong> ガス溶接、フォークリフト(リーチのみ実務経験あり)</p>
+  </div>
+
+  <a href="index.html" class="button">トップページに戻る</a>
+
+  <footer>
+    ※このNFTはただのアートです。投資対象にするような物ではありません。そして怒らないでください。
+  </footer>
+
+</body>
+</html>
